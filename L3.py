@@ -76,4 +76,28 @@ print(mynums)
 print(mycopy.sort())
 print(nums)
 
-print(nums)
+print(type(nums))
+
+mylist = list([1,"Neil,True"])
+print(mylist)
+
+
+#Tuples
+
+mytuple = tuple(('Dave',43,True))
+anothertuple = (1,2,4,8,2,2)
+print(mytuple)
+print(type(mytuple))
+print(type(anothertuple))
+
+newlist = list(mytuple)
+newlist.append('Neil')
+newtuple = tuple(mylist)
+print(newtuple)
+
+(one,*two,hey) = anothertuple
+print(one)
+print(two)
+print(hey)
+
+print(anothertuple.count(2))# occurences
